@@ -1,0 +1,268 @@
+{
+    "banner": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Banner Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "515x295"
+                }
+            },
+            "heading": "text",
+            "subheading": "text"
+        }
+    },
+    "account_open": {
+        "builder": true,
+        "name": "Account Open Section",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                    "size": "150x150"
+                }
+            },
+            "title": "text",
+            "description": "textarea",
+            "modal": true
+        }
+    },
+    "trade": {
+        "builder": true,
+        "name": "Trade Section",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                    "size": "220x180"
+                }
+            },
+            "select": {
+                "name": "trade_type",
+                "options": {
+                    "buy": "Buy Crypto",
+                    "sell": "Sell Crypto"
+                }
+            },
+            "title": "text",
+            "description": "textarea",
+            "modal": true
+        }
+    },
+    "feature": {
+        "builder": true,
+        "name": "Feature Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "555x500"
+                }
+            },
+            "heading": "text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                    "size": "75x75"
+                }
+            },
+            "title": "text",
+            "description": "textarea",
+            "modal": true
+        }
+    },
+    "faq": {
+        "builder": true,
+        "name": "FAQ Section",
+        "content": {
+            "heading": "text",
+            "sub_heading": "text"
+        },
+        "element": {
+            "question": "text",
+            "answer": "textarea",
+            "modal": true
+        }
+    },
+    "cta": {
+        "builder": true,
+        "name": "CTA Section",
+        "content": {
+            "heading": "text",
+            "sub_heading": "text",
+            "button_text": "text",
+            "button_url": "text"
+        }
+    },
+    "social_icon": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Social Icons",
+        "element": {
+            "title": "text",
+            "social_icon": "icon",
+            "url": "text",
+            "modal": true
+        }
+    },
+    "policy_pages": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Policy Pages",
+        "element": {
+            "title": "text",
+            "slug":"title",
+            "details": "textarea-nic",
+            "modal": false
+        }
+    },
+    "payment_methods": {
+        "builder": true,
+        "name": "Payment Method Section",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                    "size": "80x45"
+                }
+            },
+            "modal": true
+        }
+    },
+    "login": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Login Page",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "735x605"
+                }
+            },
+            "heading": "text",
+            "subheading": "text"
+        }
+    },
+    "registration": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Registration Page",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "735x605"
+                }
+            },
+            "heading": "text",
+            "subheading": "text"
+        }
+    },
+    "contact": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Page",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "615x430"
+                }
+            },
+            "heading": "text",
+            "subheading": "text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                    "size": "44x44"
+                }
+            },
+            "select": {
+                "name": "address_type",
+                "options": {
+                    "mail": "Mail",
+                    "phone": "Phone"
+                }
+            },
+            "name": "text",
+            "details": "textarea",
+            "address": "text",
+            "modal": false
+        }
+    },
+    "kyc": {
+        "builder": true,
+        "no_selection": true,
+        "name": "KYC Message",
+        "content": {
+            "kyc_required": "text",
+            "kyc_pending": "text",
+            "kyc_rejected": "text"
+        }
+    },
+    "advertisement": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Advertisement Page",
+        "content": {
+            "asset_information": "text",
+            "with_fiat_information": "text",
+            "fiat_payment_method": "text",
+            "currency": "text",
+            "price_type": "text",
+            "margin": "text",
+            "fixed_price": "text",
+            "payment_window": "text",
+            "minimum_limit": "text",
+            "maximum_limit": "text",
+            "price_equation": "text",
+            "payment_details": "text",
+            "terms_of_trades": "text"
+        }
+    },
+    "buy_sell": {
+        "builder": true,
+        "name": "Buy Sell Section",
+        "content": {
+            "heading": "text",
+            "subheading": "text",
+            "images": {
+                "image": {
+                    "size": "520x300"
+                }
+            }
+        }
+    },
+    "subscribe": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Subscribe Section",
+        "content": {
+            "heading": "text",
+            "subscribing_message": "text",
+            "button_text": "text"
+        }
+    },
+    "register_disable": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Registration Disable",
+        "content": {
+            "images":{
+                "image":{
+                    "size":"280x280"
+                }
+            },
+            "heading": "text",
+            "subheading":"text",
+            "button_name":"text",
+            "button_url":"text"
+        }
+    }
+}

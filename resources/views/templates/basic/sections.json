@@ -1,0 +1,271 @@
+
+{
+    "banner": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Banner Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1920x1270"
+                },
+                "form_bg": {
+                    "size": "700x465"
+                }
+            },
+            "heading": "text",
+            "subheading": "text",
+            "form_header": "text",
+            "form_button_text": "text"
+        }
+    },
+    "overview": {
+        "builder": true,
+        "name": "Overview Section",
+        "element": {
+            "details": "text",
+            "icon": "icon",
+            "modal": true
+        }
+    },
+    "buy": {
+        "builder": true,
+        "name": "Buy Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1920x1340"
+                }
+            },
+            "heading": "text",
+            "sub_heading": "text"
+        }
+    },
+    "sell": {
+        "builder": true,
+        "name": "Sell Section",
+        "content": {
+            "heading": "text",
+            "sub_heading": "text"
+        }
+    },
+    "choose_us": {
+        "builder": true,
+        "name": "Why Choose Us",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1920x1080"
+                }
+            },
+            "heading": "text",
+            "sub_heading": "text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                    "size": "50x50"
+                }
+            },
+            "heading": "text",
+            "details": "textarea",
+            "modal": true
+        }
+    },
+    "offer": {
+        "builder": true,
+        "name": "Offer Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1920x380"
+                }
+            },
+            "heading": "text",
+            "sub_heading": "text",
+            "button_text": "text",
+            "button_url": "text"
+        }
+    },
+    "faq": {
+        "builder": true,
+        "name": "FAQ Section",
+        "content": {
+            "heading": "text",
+            "sub_heading": "text"
+        },
+        "element": {
+            "question": "text",
+            "answer": "textarea",
+            "modal": true
+        }
+    },
+    "testimonial": {
+        "builder": true,
+        "name": "Testimonial Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1920x1080"
+                }
+            },
+            "heading": "text",
+            "sub_heading": "text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                    "size": "450x475"
+                }
+            },
+            "author_name": "text",
+            "quote": "textarea",
+            "modal": false
+        }
+    },
+    "breadcrumb": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Breadcrumb",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1920x300"
+                }
+            }
+        }
+    },
+    "social_icon": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Social Icons",
+        "element": {
+            "title": "text",
+            "social_icon": "icon",
+            "url": "text",
+            "modal": true
+        }
+    },
+    "policy_pages": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Policy Pages",
+        "element": {
+            "title": "text",
+            "slug":"title",
+            "details": "textarea-nic",
+            "modal": false
+        }
+    },
+    "footer": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Footer Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1920x380"
+                }
+            },
+            "footer_text": "text"
+        }
+    },
+    "login": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Login Page",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1150x950"
+                }
+            },
+            "heading": "text",
+            "sub_heading": "text"
+        }
+    },
+    "registration": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Registration Page",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1150x950"
+                }
+            },
+            "heading": "text",
+            "sub_heading": "text"
+        }
+    },
+    "contact": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Page",
+        "content": {
+            "latitude": "text",
+            "longitude": "text"
+        },
+        "element": {
+            "icon": "icon",
+            "heading": "text",
+            "details": "text",
+            "modal": true
+        }
+    },
+    "advertisement": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Advertisement Page",
+        "content": {
+            "crypto_currency": "text",
+            "fiat_payment_method": "text",
+            "currency": "text",
+            "price_type": "text",
+            "margin": "text",
+            "fixed_price": "text",
+            "payment_window": "text",
+            "minimum_limit": "text",
+            "maximum_limit": "text",
+            "price_equation": "text",
+            "payment_details": "text",
+            "terms_of_trades": "text"
+        }
+    },
+    "kyc": {
+        "builder": true,
+        "no_selection": true,
+        "name": "KYC Message",
+        "content": {
+            "kyc_required": "text",
+            "kyc_pending": "text",
+            "kyc_rejected": "text"
+        }
+    },
+    "subscribe": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Subscribe Section",
+        "content": {
+            "heading": "text",
+            "sub_heading": "text",
+            "button_text": "text"
+        }
+    },
+    "register_disable": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Registration Disable",
+        "content": {
+            "images":{
+                "image":{
+                    "size":"280x280"
+                }
+            },
+            "heading": "text",
+            "subheading":"text",
+            "button_name":"text",
+            "button_url":"text"
+        }
+    }
+}
